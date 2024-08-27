@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .main {
+        #main {
             width: 90vw;
             height: 90vw;
             margin-bottom: 10px;
@@ -28,7 +28,7 @@
         updateView();
         function updateView() {
             document.getElementById('app').innerHTML = /*HTML*/`
-                <div style="background-color: rgb(${redLevel}, ${greenLevel}, ${blueLevel});" class="main"></div>
+                <div id="main"></div>
                 Rød
                 <button onclick="changeColors(-25, 0, 0)">-</button>                 
                 <button onclick="changeColors(25, 0, 0)">+</button> 
@@ -44,6 +44,8 @@
                 <button onclick="changeColors(0, 0, 25)">+</button> 
                 ${blueLevel}<br/>
             `;
+            let mainDiv = document.getElementById('main');
+            mainDiv.style.backgroundColor = `rgb(${redLevel}, ${greenLevel}, ${blueLevel})`;
         }
 
         // controller
