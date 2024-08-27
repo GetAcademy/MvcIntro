@@ -1,0 +1,38 @@
+- Først skal vi se på et enkelt klikker-spill med og uten MVC. 
+
+- Så skal vi se på endring av farger med og uten MVC. 
+
+- Så skal jeg tegne og forklare litt om MVC og noen begreper rundt dette
+  - separation of concerns
+  - design patterns
+
+- Om vi får tid, skal vi lage en liten evalueringsapp, hvor 
+  brukeren svarer på tre multiple choice spørsmål, og hvor 
+  hvert alternativ gir et antall poeng. 
+
+ - Veien videre Innebygget i JavaScript
+   - Tall, tilfeldige tall
+   - Tekst
+   - Datoer
+
+
+Uke 1 Torsdag  8.8: Intro til hele pensum + Intro HTML, CSS og tre grunnferdigheter i JavaScript
+      Tirsdag 13.8: Layout med CSS + flere eksempler på JavaScript
+Uke 2 Torsdag 15.8: Intro variabler, operatorer og parametre
+      Tirsdag 20.8: Returverdi, if, sammenligning og logisk verdi
+Uke 3 Torsdag 22.8: Mer om if, logiske operatorer og komponenter
+      Tirsdag 27.8: Introduksjon til MVC
+Uke 4 Torsdag 29.8: Skjemaer i MVC
+                     - Tre måter å variere HTML på
+                     Innebygd funksjonalitet
+      Tirsdag  3.9: Innebygd funksjonalitet - tall
+                    Løkker
+                    null undefined
+Uke 5 Torsdag  5.9: Innebygd funksjonalitet - tekst og datoer, eksempler:
+                     - tallpuslespill
+                     - kalender
+      Tirsdag 10.9: Lister
+Uke 6 Torsdag 12.9: Enhetstesting
+      Tirsdag 17.9: Objekter
+Uke 7 Torsdag 19.9: Lister av objekter
+      Tirsdag 24.9: Emne 2-app    
