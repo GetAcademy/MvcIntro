@@ -10,22 +10,26 @@
 <body>
     <h1 id="number">0</h1>
     <button onclick="oneClick()">Klikk</button>
-    <button onclick="buyUpgrade()">Kjøp oppgradering</button> (koster 10 poeng)
+    <button onclick="upgrade()">Oppgradering</button> (10 poeng)
 
     <script>
-        let upgradeCount = 1;
+        let upgrades = 1;
 
         function oneClick() {
             let h1tag = document.getElementById('number');
-
-            // hente ut nåværende tall
             let points = parseInt(h1tag.innerHTML);
-
-            // øke med 1
-            points++;
-
-            // legge nytt tall tilbake
+            points += upgrades;
             h1tag.innerHTML = points;
+        }
+
+        function upgrade() {
+            let h1tag = document.getElementById('number');
+            let points = parseInt(h1tag.innerHTML);
+            if (points >= 10) {
+                points -= 10;
+                h1tag.innerHTML = points;
+                upgrades++;
+            }
         }
     </script>
 </body>

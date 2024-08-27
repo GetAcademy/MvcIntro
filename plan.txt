@@ -10,11 +10,10 @@
   brukeren svarer på tre multiple choice spørsmål, og hvor 
   hvert alternativ gir et antall poeng. 
 
- - Veien videre Innebygget i JavaScript
+ - Veien videre: Innebygget i JavaScript
    - Tall, tilfeldige tall
    - Tekst
    - Datoer
-
 
 Uke 1 Torsdag  8.8: Intro til hele pensum + Intro HTML, CSS og tre grunnferdigheter i JavaScript
       Tirsdag 13.8: Layout med CSS + flere eksempler på JavaScript
