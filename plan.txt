@@ -5,6 +5,7 @@
 - Så skal jeg tegne og forklare litt om MVC og noen begreper rundt dette
   - separation of concerns
   - design patterns
+  - model-view-controller
 
 - Om vi får tid, skal vi lage en liten evalueringsapp, hvor 
   brukeren svarer på tre multiple choice spørsmål, og hvor 
